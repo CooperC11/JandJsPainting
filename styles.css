@@ -2,7 +2,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(231, 51, 43);
+    background-color: rgb(221, 41, 43);
 }
 
 .navmenu {
@@ -31,8 +31,18 @@ body {
     margin-bottom: 10px;
 }
 
+#description{
+    width: 727px;
+    padding: 20px;
+    margin: auto;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 2px;
+    margin-bottom: 20px;
+    font-size: large;
+}
+
 #beforeandafter{
-    width: 590px;
+    width: 580px;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.9);
     padding: 10px;
@@ -49,8 +59,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
-    text-align: center;
-    border: solid 5px rgb(29, 28, 28);
+    text-align: center;  
     border-radius: 3px;
 }
 
@@ -96,4 +105,75 @@ body {
 }
 #slider-image-4:target ~ .image-container{
     left: -1800px;
+}
+
+#moreimages{
+    width: 580px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    font-size: x-large;
+    margin: auto;
+    color: rgb(29, 28, 28);
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+.image-slideshow-2{
+    margin-top: 10px;
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;  
+    border-radius: 3px;
+}
+
+.image-container-2{
+    width: 3000px;
+    height: 600px;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+}
+
+.slider-image-2{
+    float: left;
+    margin-top: 0px;
+    padding: 0px;
+    max-width: 600px;
+    max-height: 600px;
+}
+
+.button-container-2{
+    top: -50px;
+    position: relative;
+}
+
+.slider-button-2{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#slider-image-5:target ~ .image-container-2{
+    left: 0px;
+}
+#slider-image-6:target ~ .image-container-2{
+    left: -600px;
+}
+#slider-image-7:target ~ .image-container-2{
+    left: -1200px;
+}
+#slider-image-8:target ~ .image-container-2{
+    left: -1800px;
+}
+
+#slider-image-9:target ~ .image-container-2{
+    left: -2400px;
 }
